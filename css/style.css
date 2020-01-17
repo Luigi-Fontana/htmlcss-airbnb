@@ -3,3 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.sfondo {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpng.pngtree.com%2Fback_origin_pic%2F05%2F06%2F82%2F976e7c4631828134cd09e6e9b70c310d.jpg&f=1&nofb=1");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
