@@ -27,7 +27,6 @@
 .photo {
     width: 300px;
     height: 200px;
-    background-image: url("https://d1bvpoagx8hqbg.cloudfront.net/originals/erasmus-experience-napoli-italy-andrea-5c6c2db09fc51ea50f5725f74852087e.jpg");
     background-size: cover;
 }
 
@@ -43,8 +42,20 @@
 p {
     font-size: 30px;
     font-weight: bold;
-    position: absolute;
+    position: relative;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
+}
+
+.first {
+        background-image: url("https://d1bvpoagx8hqbg.cloudfront.net/originals/erasmus-experience-napoli-italy-andrea-5c6c2db09fc51ea50f5725f74852087e.jpg");
+}
+
+.second {
+    background-image: url("https://images.ctfassets.net/niwziy2l9cvz/4c6yo5FbxeWMWME6GK8Koo/1dccd39facba40d5778fa32f789a4ae4/Rome-colosseum-1500x850.JPG");
+}
+
+.third {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Piazza_del_Duomo_-_kuhnmi.jpg/1200px-Piazza_del_Duomo_-_kuhnmi.jpg");
 }
