@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Dancing Script';
 }
 
 .background {
@@ -30,6 +31,7 @@
     margin: 5px;
     background-size: cover;
     position: relative;
+    border-radius: 5px;
 }
 
 .overlay {
@@ -44,7 +46,7 @@
 p {
     font-size: 30px;
     font-weight: bold;
-    color: green;
+    color: #191970;
     position: relative;
     left: 50%;
     top: 50%;
@@ -65,6 +67,5 @@ p {
 }
 
 .photo:hover p {
-    cursor: pointer;
     display: block;
 }
